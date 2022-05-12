@@ -1,0 +1,32 @@
+[
+	{
+		"id": "1",
+		"name": "Waldkrankenhaus",
+		"address": "Friedrischshtrasse 13",
+		"city": "Berlin",
+		"description": "Discription regarding the following krankenhaus",
+		"tags": [
+			{
+				"id": "1001",
+				"name": "children's hospital"
+			},
+			{
+				"id": "1002",
+				"name": "Dental clinic"
+			}
+		],
+
+		"comments": [
+			{
+				"id": "101",
+				"content": "The comment 101 goes here",
+				"createAt": "2022-03-12T12:30:06.504Z"
+			},
+			{
+				"id": "102",
+				"content": "The comment 102 goes here",
+				"createAt": "2022-03-12T12:30:06.504Z"
+			}
+		]
+	}
+]
