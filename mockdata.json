@@ -1,32 +1,114 @@
 [
 	{
-		"id": "1",
-		"name": "Waldkrankenhaus",
-		"address": "Friedrischshtrasse 13",
-		"city": "Berlin",
-		"description": "Discription regarding the following krankenhaus",
-		"tags": [
-			{
-				"id": "1001",
-				"name": "children's hospital"
-			},
-			{
-				"id": "1002",
-				"name": "Dental clinic"
-			}
-		],
+		"id": "101",
+		"name": "Pizza&via",
+		"address": "Koenigstr. 36 90402 Nuremberg Downtown",
+		"city": "Nuremberg",
+		"description": "Italian Restaurant",
+		"categories": "Italian",
+		"imgUrl": " ",
+		"email": "pizza@gmail.com",
+		"hours": {
+			"Monday": "10:00-21:00",
+			"Tuesday": "10:00-21:00",
+			"Friday": "10:00-21:00",
+			"Wednesday": "10:00-21:00",
+			"Thursday": "10:00-21:00",
+			"Sunday": "11:00-18:00",
+			"Saturday": "10:00-21:00"
+		},
 
-		"comments": [
-			{
-				"id": "101",
-				"content": "The comment 101 goes here",
-				"createAt": "2022-03-12T12:30:06.504Z"
-			},
-			{
-				"id": "102",
-				"content": "The comment 102 goes here",
-				"createAt": "2022-03-12T12:30:06.504Z"
-			}
-		]
+		"star_rating": "5",
+		"price_category": "4"
+	},
+
+	{
+		"id": "102",
+		"name": "pepper room",
+		"address": "Koenigstr. 78 90402 Nuremberg",
+		"city": "Nuremberg",
+		"description": "Asian Restaurant",
+		"categories": "Asian",
+		"imgUrl": " ",
+		"email": "pepper@gmail.com",
+		"hours": {
+			"Monday": "10:00-21:00",
+			"Tuesday": "10:00-21:00",
+			"Wednesday": "10:00-21:00",
+			"Thursday": "10:00-21:00",
+			"Friday": "10:00-21:00",
+			"Saturday": "10:00-21:00",
+			"Sunday": "11:00-18:00"
+			
+		},
+
+		"star_rating": "4",
+		"price_category": "4"
+	},
+	{
+		"id": "103",
+		"name": "Taj Mahal",
+		"address": "Ostengasse 17 93047",
+		"city": "Regensburg",
+		"description": "Indian Restaurant",
+		"categories": "Indian",
+		"imgUrl": " ",
+		"email": "taj@gmail.com",
+		"hours": {
+			"Monday": "10:00-21:00",
+			"Tuesday": "10:00-21:00",
+			"Friday": "10:00-21:00",
+			"Wednesday": "10:00-21:00",
+			"Thursday": "10:00-21:00",
+			"Sunday": "11:00-18:00",
+			"Saturday": "10:00-21:00"
+		},
+
+		"star_rating": "5",
+		"price_category": "5"
+	},
+	{
+		"id": "104",
+		"name": "louis",
+		"address": "Tattenbachstr.1 80538",
+		"city": "Munich",
+		"description": "french Restaurant",
+		"categories": "French",
+		"imgUrl": " ",
+		"email": "louis@gmail.com",
+		"hours": {
+			"Monday": "10:00-21:00",
+			"Tuesday": "10:00-21:00",
+			"Friday": "10:00-21:00",
+			"Wednesday": "10:00-21:00",
+			"Thursday": "10:00-21:00",
+			"Sunday": "11:00-18:00",
+			"Saturday": "10:00-21:00"
+		},
+
+		"star_rating": "4",
+		"price_category": "5"
+	},
+	{
+		"id": "105",
+		"name": "The masterpiece",
+		"address": "weissenbrger str.16 81667",
+		"city": "Munich",
+		"description": "German Restaurant",
+		"categories": "German",
+		"imgUrl": " ",
+		"email": "masterpiece@gmail.com",
+		"hours": {
+			"Monday": "10:00-21:00",
+			"Tuesday": "10:00-21:00",
+			"Friday": "10:00-21:00",
+			"Wednesday": "10:00-21:00",
+			"Thursday": "10:00-21:00",
+			"Sunday": "11:00-18:00",
+			"Saturday": "10:00-21:00"
+		},
+
+		"star_rating": "5",
+		"price_category": "5"
 	}
 ]

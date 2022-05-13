@@ -2,13 +2,13 @@ import mongoose from 'mongoose'
 const { Schema } = mongoose
 const restaurantSchema = new Schema({
 	name: String,
+	address: String,
 	city: String,
 	description: String,
-	address: String,
-	phone: String,
+	categories: String,
+	imgUrl: String,
 	email: String,
-	opening_hours: String,
-	closing_hours: String,
+	hours: [String],
 	star_rating: Number,
 	price_category: Number,
 })

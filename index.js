@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
 })
 
 ////appending the restaurant route
-app.use('/', router)
+app.use('/restaurants', router)
 
 //listen to port
 app.listen(port, () => {
