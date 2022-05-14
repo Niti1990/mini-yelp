@@ -26,7 +26,7 @@ export const getRestaurantByKeyword = async (req, res) => {
 	try {
 		const { keyword } = req.params
 		const restaurant = await Restaurant.find({
-			name: { $regex: keyword },
+			name: { $regex: keyword, $options: '$i' },
 		})
 
 		await res.json(restaurant)
@@ -52,5 +52,3 @@ export const createRestaurant = async (req, res) => {
 		res.status(500).json({ error: err.message })
 	}
 }
-
-

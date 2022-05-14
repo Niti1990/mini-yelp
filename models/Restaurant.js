@@ -11,6 +11,7 @@ const restaurantSchema = new Schema({
 	hours: [String],
 	star_rating: Number,
 	price_category: Number,
+	phoneNumber: String,
 })
 
 //using the model method to declare model

@@ -1,10 +1,8 @@
 # Project Name:
-
-    mini yelp
+  mini yelp
 
 # Backend:
-
-nosql-mongodb
+  nosql-mongodb
 
 Deployed on Heroku
 
@@ -14,7 +12,7 @@ Deployed on Heroku
 | ----------------------------------------------- | ------ |
 | https://miniyelpback.herokuapp.com/restaurants/ | `GET`  |
 
-### GET a single user by id
+### GET a single restaurants by id
 
 | URL                                                 | Method |
 | --------------------------------------------------- | ------ |
