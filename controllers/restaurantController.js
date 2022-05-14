@@ -1,6 +1,6 @@
 import Restaurant from '../models/Restaurant.js'
 
-//find All Recipes
+//find All Restaurants
 export const getAllRestaurants = async (req, res) => {
 	try {
 		const restaurants = await Restaurant.find()
@@ -21,6 +21,19 @@ export const getSingleRestaurant = async (req, res) => {
 		res.status(500).json({ error: err.message })
 	}
 }
+//find by name
+export const getRestaurantByKeyword = async (req, res) => {
+	try {
+		const { keyword } = req.params
+		const restaurant = await Restaurant.find({
+			name: { $regex: keyword },
+		})
+
+		await res.json(restaurant)
+	} catch (error) {
+		res.status(500).send('Error getting restaurant')
+	}
+}
 
 //create
 export const createRestaurant = async (req, res) => {
@@ -39,16 +52,5 @@ export const createRestaurant = async (req, res) => {
 		res.status(500).json({ error: err.message })
 	}
 }
-//find 
-export const getRestaurantByKeyword = async (req, res) => {
-	try {
-		const { keyword } = req.params
-		const restaurant = await Restaurant.find({
-			name: { $regex: keyword },
-		})
 
-		await res.json(restaurant)
-	} catch (error) {
-		res.status(500).send('Error getting restaurant')
-	}
-}
+
